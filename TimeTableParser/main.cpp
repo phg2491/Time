@@ -11,7 +11,7 @@ int main(){
 	for(int i=0; i<6; i++)
 		arr[i] = new int[6];
 
-	// parseArray 함수를 사용하여 배열로 텍스트파일을 옮깁니다.
+	// 3. parseArray 함수를 사용하여 배열로 텍스트파일을 옮깁니다.
 	myTimetable.parseArray(6,6,arr);
 
 
